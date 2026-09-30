@@ -86,7 +86,6 @@
 
 
 
-
 # find the second largest number and also return its index
 
 # l = [23, 54, 103, 15, 85, 94, 96]
