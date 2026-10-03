@@ -76,13 +76,15 @@
 
 
 # If found same elements or keys then add their values
-d1 = {10:100, 20:200, 30:300}
-d2 = {40:400, 20:500, 10:600}
+# d1 = {10:100, 20:200, 30:300}
+# d2 = {40:400, 20:500, 10:600}
 
-for i in d2:
-    if i in d1.keys(): # i matlab key hai so key agar d1 me bhi hai
-        d1[i] += d2[i]  # to d1 ka i'th key vala element + karo d2 ke i'th elements ke sath (matching)
-    else:
-        d1[i] = d2[i]  # otherwise both values ko equal kro 
+# for i in d2:
+#     if i in d1.keys(): # i matlab key hai so key agar d1 me bhi hai
+#         d1[i] += d2[i]  # to d1 ka i'th key vala element + karo d2 ke i'th elements ke sath (matching)
+#     else:
+#         d1[i] = d2[i]  # otherwise both values ko equal kro 
 
-print(d1)
+# print(d1)
+
+

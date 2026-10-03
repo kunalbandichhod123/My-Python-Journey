@@ -1,7 +1,7 @@
 # There are 4 types of data structures
 # 1) List       2) Tuple        3) Dictionary       4) Set
 
-# custom data structure ---> Stack, Queues, Trees, Heap   || but we have to use these by using libraries
+# custom data structure ---> Stack, Queues, Trees, Heap   ||   but we have to use these by using libraries
 
 
 # 1] List

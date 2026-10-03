@@ -1,3 +1,4 @@
+import random
 # Does not used that much in development things (Least Used)
 #  these can be created by using round braces ( )
 
@@ -32,3 +33,10 @@ print(a)
 print(b)
 print(c)
 print(d)
+
+
+
+
+# Random Tuple generation code
+random_numbers = list(random.randint(1,100) for _ in range(8))
+print(random_numbers)
