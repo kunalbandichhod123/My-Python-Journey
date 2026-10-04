@@ -38,5 +38,5 @@ print(d)
 
 
 # Random Tuple generation code
-random_numbers = list(random.randint(1,100) for _ in range(8))
-print(random_numbers)
+# random_numbers = tuple(random.randint(1,100) for _ in range(8))
+# print(random_numbers)
