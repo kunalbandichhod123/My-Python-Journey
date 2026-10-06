@@ -423,31 +423,31 @@ class PuneFfactory(BhopalFactory):
 ## Dunder methods
 # Starts and ends with __   eg) __init__, __str__
  
-class Animal:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Animal:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def __str__(self):
-        return f"Hello my name is {self.name}"
+#     def __str__(self):
+#         return f"Hello my name is {self.name}"
 
-    # def __add__(self, other):
-    #     return f"Your sum of ages are : {self.age + other.age}"
+#     # def __add__(self, other):
+#     #     return f"Your sum of ages are : {self.age + other.age}"
 
-    def __add__(self, other):
-        sum = 0
-        for i in other:
-            sum = sum + i.age
+#     def __add__(self, other):
+#         sum = 0
+#         for i in other:
+#             sum = sum + i.age
 
-        return f"Your sum of ages are {self.age + sum}"   
+#         return f"Your sum of ages are {self.age + sum}"   
 
-obj = Animal("Lion", 22)
-obj2 = Animal("Dolphin", 22)
-obj3 = Animal("Dog", 14)
+# obj = Animal("Lion", 22)
+# obj2 = Animal("Dolphin", 22)
+# obj3 = Animal("Dog", 14)
 
-# now can we add age by print(obj1 + obj2) no hence we can create one more dunder method which is up here
-print(obj + obj2)
-print(obj + (obj2, obj3))  ## like send them in tuple
+# # now can we add age by print(obj1 + obj2) no hence we can create one more dunder method which is up here
+# print(obj + obj2)
+# print(obj + (obj2, obj3))  ## like send them in tuple
 
 # now if we want to add 3rd age we cant write like other, other2 etc instead we have to code more
 #     def __add__(self, other):
@@ -458,3 +458,5 @@ print(obj + (obj2, obj3))  ## like send them in tuple
 #         return f"Your sum of ages are {self.age + sum}"   
 
 # print(obj + (obj2, obj3))  ## like send them in tuple
+
+
