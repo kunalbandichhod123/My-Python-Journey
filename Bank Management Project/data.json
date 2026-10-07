@@ -1,0 +1,42 @@
+[
+    {
+        "name": "kunal",
+        "Age": 21,
+        "E-mail": "kunal@as",
+        "Pin": 2005,
+        "Account No.": "1234",
+        "Balance": 3000
+    },
+    {
+        "name": "neha shejole",
+        "Age": 22,
+        "E-mail": "neha@gmail.com",
+        "Pin": 1234,
+        "Account No.": "4Be42M$",
+        "Balance": 0
+    },
+    {
+        "name": "shikari",
+        "Age": 24,
+        "E-mail": "skikari@gmail.com",
+        "Pin": 2340,
+        "Account No.": "4uy*1f9",
+        "Balance": 0
+    },
+    {
+        "name": "shikari",
+        "Age": 24,
+        "E-mail": "skija@haos",
+        "Pin": 2432,
+        "Account No.": "d3L2s0^",
+        "Balance": 0
+    },
+    {
+        "name": "chiraag",
+        "Age": 70,
+        "E-mail": "dragon@gmail.com",
+        "Pin": 6969,
+        "Account No.": "kf%3W04",
+        "Balance": 9000
+    }
+]
